@@ -1,0 +1,323 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+  background: #000 url("images/dragon_wallpaper.jpg") no-repeat fixed center;
+}
+
+/* _____________________________________________ THREAD FORUM ETC __________________________________ */
+.postlist {
+	clear:both;
+	margin-top: 6px;
+	margin-bottom: 12px;
+	position:relative;
+	_border: 1px solid transparent;
+}
+.posts {
+	margin: 12px 0;
+    margin-top: 12px;
+    margin-right: 0px;
+    margin-bottom: 12px;
+    margin-left: 0px;
+}
+.postcontainer {
+	margin-bottom: 12px;
+    display: block;
+    width: 100%;
+    clear: both;
+    position: relative;
+    float: left;
+    color: #3e3e3e;
+    border: 1px solid #e4e4e4;
+}
+.posthead {
+	    background: #E66B1B none;
+    border: 1px solid #E66B1B;
+    clear: both;
+    display: block;
+    float: left;
+    width: 100%;
+    color: #ffffff;
+    margin: -1px -1px 0;
+    font: normal 14px;
+    padding: 9px 0;
+}
+.postdate {
+	display: block;
+    float: left;
+    clear: right;
+    width: 49%;
+    margin-left: 10px;
+    font: normal 14px;
+    padding-left: 15px;
+}
+.postdetails {
+    float: left;
+    width: 100%;
+    background: #f2f2f2 none;
+}
+.postfoot {
+    display: block;
+    position: relative;
+    right: 0;
+    float: left;
+    clear: both;
+    /* vertical-align: bottom; */
+    background: transparent;
+    /* height: 26px; */
+    font: bold 11px 'Open Sans', sans-serif;
+    width: 100%;
+}
+.userinfo {
+    float: left;
+    position: relative;
+    width: 176px;
+    padding: 2px 12px 6px;
+    font-size: 11px;
+    display: block;
+    background: #f2f2f2 none;
+    clear: both;
+}
+.postbody, .eventbit .eventdetails .eventbody {
+    margin-left: 200px;
+    border-left: 1px solid #efefef;
+    background: #ffffff none;
+    _background-image: none;
+    padding-bottom: 1em;
+}
+.userprofile_container {
+	width:700px;
+	height: 600px;
+}
+.content {
+	width:400px;
+	float:right;
+}
+.user_image {
+	background:url(images/question.jpg) center;
+	width:150px;
+	height:150px;
+	float:left;
+}
+.userprofile_image {
+	background:url(images/question.jpg) center;
+	width:150px;
+	height:150px;
+	float:left;
+	padding:5px;
+}
+.aboutme_db {
+	width:400px;
+	float:right;
+}
+
+
+
+/* _____________________________________sign in FORM________ */
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* __________________________END OF SIGN IN FORM____________________________ */
+
+/*___________________________GUIDES________________________________________ */
+.gen_table {
+border: 5px black solid;
+margin-left:5px;
+margin-right:5px;
+}
+.cell {
+padding:5px;
+}
+
+.thumb_g {
+width: 250px;
+}
+.content_wrapper {
+max-width:900px;
+height:100%;
+border: 10px red solid;
+background:white;
+}
+.title {
+background:black;
+font: 16px;
+color: white;
+float:center;
+}
+.img_forum {
+width:150px;
+background:white;
+font: black;
+}
+.forum_table {
+background: white;
+max-width: 600px;
+}
+.boxer {
+background:white;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  max-width:850px;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: auto;/*500px*/
+  margin-bottom: 60px;
+  margin-top:70px;
+  max-width:900px;
+  margin-left:15px;
+  margin-right:15px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px; /*500px*/
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;/* 100% */
+  height: auto;/*500px*/
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+	
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+		max-width:900px;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
